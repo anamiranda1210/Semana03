@@ -1,3 +1,141 @@
+/* Formatação da Estrutura */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    /*background-color: #281126;*/
+}
+
+header {
+    height: 150px;
+    padding: 20px;
+    background: url(img/FilmsTrips.png) no-repeat;
+
+}
+
+main {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+aside {
+    text-align: center;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    /*background-color:rgb(148, 148, 154);*/
+}
+
+aside ul li{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+aside h1{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+footer {
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+/* Menu Principal */
+
+.menuprincipal {
+    float: right;
+}
+
+.menuprincipal ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menuprincipal ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(148, 148, 154);
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+}
+
+.menuprincipal ul li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+/* Filmes */
+
+.subtitulo {
+    display: block;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    border-bottom: 5px solid#4e4e4e;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    /*border-bottom: 5px solid#925092;*/
+}
+
+.genero{
+    margin-bottom: 20px !important;
+
+}
+
+.genero img {
+    /*float: left;*/
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+
+.filme{
+    margin-bottom: 30px !important;
+    clear: both;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+
+
+/*  Categoria de Generos */
+
+
+
+.Categoria ul li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.Categoria ul li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+.Categoria ul li a:hover {
+    color: rgba(255, 242, 242, 0.489);
+
 }
