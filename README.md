@@ -8,17 +8,18 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Ana Luiza Damasceno Miranda
+- Matricula: 893018
+- Proposta de projeto escolhida: Catalogo de Filmes
+- Breve descrição sobre seu projeto: Um local onde as pessoas possam ir para escolherem qual será 
+sua proxima aventura.
 
 
 ## Print do esboço criada
 
 <<  COLOQUE A IMAGEM AQUI >>
-
+![WireFrame](image-1.png)
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Home-Page](image.png)
