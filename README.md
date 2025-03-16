@@ -22,4 +22,4 @@ sua proxima aventura.
 
 ## Print da home-page criada
 
-![Home-Page](image.png)
+![Home Page](image-2.png)
