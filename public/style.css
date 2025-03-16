@@ -31,7 +31,6 @@ aside {
     float: left;
     padding: 20px;
     box-sizing: border-box;
-    /*background-color:rgb(148, 148, 154);*/
 }
 
 aside ul li{
@@ -42,6 +41,7 @@ aside h1{
     font-size: xx-large;
     margin-bottom: 10px;
     color: aliceblue;
+    margin-top: 70px;
 }
 
 footer {
@@ -91,26 +91,23 @@ footer {
 }
 
 h3{
-    font-size: 25px;
+    font-size: 15px;
     margin-bottom: 10px;
-    /*border-bottom: 5px solid#925092;*/
 }
 
 .genero{
-    margin-bottom: 20px !important;
-
+    margin-bottom: 20px;
 }
 
 .genero img {
-    /*float: left;*/
     margin-bottom: 20px;
     margin-right: 20px;
-    width: 100%;
+    width: 50%;
 }
 
 
 .filme{
-    margin-bottom: 30px !important;
+    margin-bottom: 30px;
     clear: both;
     display: inline-block;
     width: 30%;
@@ -118,8 +115,24 @@ h3{
     vertical-align: top;
     text-align: justify;
 }
+.filme nav {
+    padding: 8px;
+    margin-top: 10px;
+    text-align: center;
+    background-color:  rgb(148, 148, 154);
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
 
+.filme nav a{
+    text-decoration: none;
+   color:#4e4e4e;
+}
+.filme nav a:hover {
+    color:rgb(0, 0, 0);
 
+}
 
 /*  Categoria de Generos */
 
@@ -138,4 +151,28 @@ h3{
 .Categoria ul li a:hover {
     color: rgba(255, 242, 242, 0.489);
 
+}
+
+/* Caixa de Pesquisa*/
+.caixa-pesquisa{
+    padding: 20px;
+    display: block;
+}
+.caixa_pesquisa input{
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+}
+.caixa_pesquisa button {
+    padding: 10px 15px;
+    border: none;
+    background: rgba(255, 242, 242, 0.489);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
